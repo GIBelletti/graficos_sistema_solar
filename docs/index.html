@@ -409,7 +409,7 @@
             // tierra
             apreciacion = 32//dividido por esto ya que no se aprecia en la rotacion
             dias = 365 //cantidad de rotaciones en una traslacion
-            velocidad_tierrra_rotacion = 2 * Math.PI * frame / apreciacion
+            velocidad_tierrra_rotacion = 2 * Math.PI * (frame * speed) / apreciacion
             velocidad_tierrra_traslacion = velocidad_tierrra_rotacion / dias
 
             m1=mat4.create();  
